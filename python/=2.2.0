@@ -1,0 +1,607 @@
+The directory '/home/kinoder/.cache/pip/log' or its parent directory is not owned by the current user and the debug log has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want the -H flag.
+The directory '/home/kinoder/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want the -H flag.
+The directory '/home/kinoder/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want the -H flag.
+Collecting h5py
+  Downloading h5py-2.4.0.tar.gz (172kB)
+Requirement already satisfied (use --upgrade to upgrade): numpy>=1.6.1 in /usr/lib/python2.7/dist-packages (from h5py)
+Requirement already satisfied (use --upgrade to upgrade): Cython>=0.17 in /usr/local/lib/python2.7/dist-packages (from h5py)
+Installing collected packages: h5py
+  Running setup.py install for h5py
+    Autodetected HDF5 1.8.11
+    ********************************************************************************
+                           Summary of the h5py configuration
+        Path to HDF5: None
+        HDF5 Version: '1.8.11'
+         MPI Enabled: False
+    Rebuild Required: False
+    ********************************************************************************
+    Executing api_gen rebuild of defs
+    Compiling /tmp/pip-build-r8UfoE/h5py/h5py/defs.pyx because it changed.
+    Compiling /tmp/pip-build-r8UfoE/h5py/h5py/_errors.pyx because it changed.
+    Compiling /tmp/pip-build-r8UfoE/h5py/h5py/_objects.pyx because it changed.
+    Compiling /tmp/pip-build-r8UfoE/h5py/h5py/_proxy.pyx because it changed.
+    Compiling /tmp/pip-build-r8UfoE/h5py/h5py/h5fd.pyx because it changed.
+    Compiling /tmp/pip-build-r8UfoE/h5py/h5py/h5z.pyx because it changed.
+    Compiling /tmp/pip-build-r8UfoE/h5py/h5py/h5.pyx because it changed.
+    Compiling /tmp/pip-build-r8UfoE/h5py/h5py/h5i.pyx because it changed.
+    Compiling /tmp/pip-build-r8UfoE/h5py/h5py/h5r.pyx because it changed.
+    Compiling /tmp/pip-build-r8UfoE/h5py/h5py/utils.pyx because it changed.
+    Compiling /tmp/pip-build-r8UfoE/h5py/h5py/_conv.pyx because it changed.
+    Compiling /tmp/pip-build-r8UfoE/h5py/h5py/h5t.pyx because it changed.
+    Compiling /tmp/pip-build-r8UfoE/h5py/h5py/h5s.pyx because it changed.
+    Compiling /tmp/pip-build-r8UfoE/h5py/h5py/h5p.pyx because it changed.
+    Compiling /tmp/pip-build-r8UfoE/h5py/h5py/h5d.pyx because it changed.
+    Compiling /tmp/pip-build-r8UfoE/h5py/h5py/h5a.pyx because it changed.
+    Compiling /tmp/pip-build-r8UfoE/h5py/h5py/h5f.pyx because it changed.
+    Compiling /tmp/pip-build-r8UfoE/h5py/h5py/h5g.pyx because it changed.
+    Compiling /tmp/pip-build-r8UfoE/h5py/h5py/h5l.pyx because it changed.
+    Compiling /tmp/pip-build-r8UfoE/h5py/h5py/h5o.pyx because it changed.
+    Compiling /tmp/pip-build-r8UfoE/h5py/h5py/h5ds.pyx because it changed.
+    Compiling /tmp/pip-build-r8UfoE/h5py/h5py/h5ac.pyx because it changed.
+    Cythonizing /tmp/pip-build-r8UfoE/h5py/h5py/_conv.pyx
+    Cythonizing /tmp/pip-build-r8UfoE/h5py/h5py/_errors.pyx
+    Cythonizing /tmp/pip-build-r8UfoE/h5py/h5py/_objects.pyx
+    Cythonizing /tmp/pip-build-r8UfoE/h5py/h5py/_proxy.pyx
+    Cythonizing /tmp/pip-build-r8UfoE/h5py/h5py/defs.pyx
+    Cythonizing /tmp/pip-build-r8UfoE/h5py/h5py/h5.pyx
+    Cythonizing /tmp/pip-build-r8UfoE/h5py/h5py/h5a.pyx
+    Cythonizing /tmp/pip-build-r8UfoE/h5py/h5py/h5ac.pyx
+    Cythonizing /tmp/pip-build-r8UfoE/h5py/h5py/h5d.pyx
+    Cythonizing /tmp/pip-build-r8UfoE/h5py/h5py/h5ds.pyx
+    Cythonizing /tmp/pip-build-r8UfoE/h5py/h5py/h5f.pyx
+    Cythonizing /tmp/pip-build-r8UfoE/h5py/h5py/h5fd.pyx
+    Cythonizing /tmp/pip-build-r8UfoE/h5py/h5py/h5g.pyx
+    Cythonizing /tmp/pip-build-r8UfoE/h5py/h5py/h5i.pyx
+    Cythonizing /tmp/pip-build-r8UfoE/h5py/h5py/h5l.pyx
+    Cythonizing /tmp/pip-build-r8UfoE/h5py/h5py/h5o.pyx
+    Cythonizing /tmp/pip-build-r8UfoE/h5py/h5py/h5p.pyx
+    Cythonizing /tmp/pip-build-r8UfoE/h5py/h5py/h5r.pyx
+    Cythonizing /tmp/pip-build-r8UfoE/h5py/h5py/h5s.pyx
+    Cythonizing /tmp/pip-build-r8UfoE/h5py/h5py/h5t.pyx
+    Cythonizing /tmp/pip-build-r8UfoE/h5py/h5py/h5z.pyx
+    Cythonizing /tmp/pip-build-r8UfoE/h5py/h5py/utils.pyx
+    building 'h5py.defs' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/h5py/defs.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/defs.o
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:287:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c: In function ‘__pyx_f_4h5py_4defs_H5Lunpack_elink_val’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:11275:3: warning: passing argument 4 of ‘H5Lunpack_elink_val’ from incompatible pointer type [enabled by default]
+       __pyx_t_1 = H5Lunpack_elink_val(__pyx_v_ext_linkval, __pyx_v_link_size, __pyx_v_flags, __pyx_v_filename, __pyx_v_obj_path); if (unlikely(PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1184; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+       ^
+    In file included from /usr/include/H5Opublic.h:33:0,
+                     from /usr/include/H5Apublic.h:24,
+                     from /usr/include/hdf5.h:25,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:27,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:287:
+    /usr/include/H5Lpublic.h:193:15: note: expected ‘const char **’ but argument is of type ‘char **’
+     H5_DLL herr_t H5Lunpack_elink_val(const void *ext_linkval/*in*/, size_t link_size,
+                   ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:11275:3: warning: passing argument 5 of ‘H5Lunpack_elink_val’ from incompatible pointer type [enabled by default]
+       __pyx_t_1 = H5Lunpack_elink_val(__pyx_v_ext_linkval, __pyx_v_link_size, __pyx_v_flags, __pyx_v_filename, __pyx_v_obj_path); if (unlikely(PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1184; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+       ^
+    In file included from /usr/include/H5Opublic.h:33:0,
+                     from /usr/include/H5Apublic.h:24,
+                     from /usr/include/hdf5.h:25,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:27,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:287:
+    /usr/include/H5Lpublic.h:193:15: note: expected ‘const char **’ but argument is of type ‘char **’
+     H5_DLL herr_t H5Lunpack_elink_val(const void *ext_linkval/*in*/, size_t link_size,
+                   ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c: In function ‘__pyx_f_4h5py_4defs_H5Pset_fapl_multi’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:15322:3: warning: passing argument 4 of ‘H5Pset_fapl_multi’ from incompatible pointer type [enabled by default]
+       __pyx_t_1 = H5Pset_fapl_multi(__pyx_v_fapl_id, __pyx_v_memb_map, __pyx_v_memb_fapl, __pyx_v_memb_name, __pyx_v_memb_addr, __pyx_v_relax); if (unlikely(PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1625; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+       ^
+    In file included from /usr/include/hdf5.h:47:0,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:27,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:287:
+    /usr/include/H5FDmulti.h:36:15: note: expected ‘const char * const*’ but argument is of type ‘char **’
+     H5_DLL herr_t H5Pset_fapl_multi(hid_t fapl_id, const H5FD_mem_t *memb_map,
+                   ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c: In function ‘__pyx_f_4h5py_4defs_H5Pget_cache’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:15506:3: warning: passing argument 3 of ‘H5Pget_cache’ from incompatible pointer type [enabled by default]
+       __pyx_t_1 = H5Pget_cache(__pyx_v_plist_id, __pyx_v_mdc_nelmts, __pyx_v_rdcc_nelmts, __pyx_v_rdcc_nbytes, __pyx_v_rdcc_w0); if (unlikely(PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1645; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+       ^
+    In file included from /usr/include/hdf5.h:36:0,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:27,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:287:
+    /usr/include/H5Ppublic.h:314:15: note: expected ‘size_t *’ but argument is of type ‘int *’
+     H5_DLL herr_t H5Pget_cache(hid_t plist_id,
+                   ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c: In function ‘__pyx_f_4h5py_4defs_H5Sselect_elements’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:23501:3: warning: passing argument 4 of ‘H5Sselect_elements’ from incompatible pointer type [enabled by default]
+       __pyx_t_1 = H5Sselect_elements(__pyx_v_space_id, __pyx_v_op, __pyx_v_num_elements, __pyx_v_coord); if (unlikely(PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 2537; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+       ^
+    In file included from /usr/include/hdf5.h:38:0,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:27,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:287:
+    /usr/include/H5Spublic.h:128:15: note: expected ‘const hsize_t *’ but argument is of type ‘hsize_t **’
+     H5_DLL herr_t H5Sselect_elements(hid_t space_id, H5S_seloper_t op,
+                   ^
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:26:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:287:
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c: At top level:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1629:1: warning: ‘_import_array’ defined but not used [-Wunused-function]
+     _import_array(void)
+     ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c: In function ‘__pyx_f_4h5py_4defs_H5Tget_member_class’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:28337:3: warning: ‘__pyx_r’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       return __pyx_r;
+       ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c: In function ‘__pyx_f_4h5py_4defs_H5Tget_strpad’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:27879:3: warning: ‘__pyx_r’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       return __pyx_r;
+       ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c: In function ‘__pyx_f_4h5py_4defs_H5Tget_cset’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:27696:3: warning: ‘__pyx_r’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       return __pyx_r;
+       ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c: In function ‘__pyx_f_4h5py_4defs_H5Tget_inpad’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:27513:3: warning: ‘__pyx_r’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       return __pyx_r;
+       ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c: In function ‘__pyx_f_4h5py_4defs_H5Tget_norm’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:27330:3: warning: ‘__pyx_r’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       return __pyx_r;
+       ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c: In function ‘__pyx_f_4h5py_4defs_H5Tget_sign’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:26779:3: warning: ‘__pyx_r’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       return __pyx_r;
+       ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c: In function ‘__pyx_f_4h5py_4defs_H5Tget_order’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:26045:3: warning: ‘__pyx_r’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       return __pyx_r;
+       ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c: In function ‘__pyx_f_4h5py_4defs_H5Tget_class’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:24758:3: warning: ‘__pyx_r’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       return __pyx_r;
+       ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c: In function ‘__pyx_f_4h5py_4defs_H5Sget_select_type’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:22827:3: warning: ‘__pyx_r’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       return __pyx_r;
+       ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c: In function ‘__pyx_f_4h5py_4defs_H5Sget_simple_extent_type’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:22460:3: warning: ‘__pyx_r’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       return __pyx_r;
+       ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c: In function ‘__pyx_f_4h5py_4defs_H5Rget_obj_type’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:21451:3: warning: ‘__pyx_r’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       return __pyx_r;
+       ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c: In function ‘__pyx_f_4h5py_4defs_H5Pget_edc_check’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:18324:3: warning: ‘__pyx_r’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       return __pyx_r;
+       ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c: In function ‘__pyx_f_4h5py_4defs_H5Pget_layout’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:16211:3: warning: ‘__pyx_r’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       return __pyx_r;
+       ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c: In function ‘__pyx_f_4h5py_4defs_H5Iget_type’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/defs.c:9224:3: warning: ‘__pyx_r’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       return __pyx_r;
+       ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/defs.o -L/opt/local/lib -L/usr/local/lib -Wl,-R/opt/local/lib -Wl,-R/usr/local/lib -lhdf5 -lhdf5_hl -o build/lib.linux-x86_64-2.7/h5py/defs.so
+    building 'h5py._errors' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/h5py/_errors.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/_errors.o
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/_errors.c:287:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/_errors.c: In function ‘__pyx_f_4h5py_7_errors_walk_cb’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/_errors.c:788:13: warning: assignment discards ‘const’ qualifier from pointer target type [enabled by default]
+       __pyx_t_3 = (__pyx_v_desc[0]).desc;
+                 ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/_errors.c: In function ‘__pyx_f_4h5py_7_errors_set_exception’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/_errors.c:1020:13: warning: assignment discards ‘const’ qualifier from pointer target type [enabled by default]
+       __pyx_t_8 = __pyx_v_err.err.desc;
+                 ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/_errors.c:1087:13: warning: assignment discards ‘const’ qualifier from pointer target type [enabled by default]
+       __pyx_t_8 = __pyx_v_err.err.desc;
+                 ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/_errors.c: In function ‘__pyx_pf_4h5py_7_errors_2unsilence_errors’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/_errors.c:1349:3: warning: passing argument 1 of ‘H5Eset_auto1’ from incompatible pointer type [enabled by default]
+       __pyx_t_1 = ((H5Eset_auto(H5Eprint, stderr) < 0) != 0);
+       ^
+    In file included from /usr/include/hdf5.h:28:0,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:27,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/_errors.c:287:
+    /usr/include/H5Epublic.h:216:15: note: expected ‘H5E_auto1_t’ but argument is of type ‘herr_t (*)(struct FILE *)’
+     H5_DLL herr_t H5Eset_auto1(H5E_auto1_t func, void *client_data);
+                   ^
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:26:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/_errors.c:287:
+    /tmp/pip-build-r8UfoE/h5py/h5py/_errors.c: At top level:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1629:1: warning: ‘_import_array’ defined but not used [-Wunused-function]
+     _import_array(void)
+     ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/_errors.o -L/opt/local/lib -L/usr/local/lib -Wl,-R/opt/local/lib -Wl,-R/usr/local/lib -lhdf5 -lhdf5_hl -o build/lib.linux-x86_64-2.7/h5py/_errors.so
+    building 'h5py._objects' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/h5py/_objects.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/_objects.o
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/_objects.c:287:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:26:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/_objects.c:287:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1629:1: warning: ‘_import_array’ defined but not used [-Wunused-function]
+     _import_array(void)
+     ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/_objects.o -L/opt/local/lib -L/usr/local/lib -Wl,-R/opt/local/lib -Wl,-R/usr/local/lib -lhdf5 -lhdf5_hl -o build/lib.linux-x86_64-2.7/h5py/_objects.so
+    building 'h5py._proxy' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/h5py/_proxy.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/_proxy.o
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/_proxy.c:287:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/_proxy.c: In function ‘__pyx_f_4h5py_6_proxy_h5py_copy’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/_proxy.c:3129:5: warning: passing argument 4 of ‘__pyx_f_4h5py_4defs_H5Diterate’ from incompatible pointer type [enabled by default]
+         __pyx_f_4h5py_4defs_H5Diterate(__pyx_v_noncontig, __pyx_v_tid, __pyx_v_space, __pyx_f_4h5py_6_proxy_h5py_scatter_cb, (&__pyx_v_info)); if (unlikely(PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 297; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/_proxy.c:3129:5: note: expected ‘H5D_operator_t’ but argument is of type ‘herr_t (*)(void *, hid_t,  unsigned int,  hsize_t *, void *)’
+    /tmp/pip-build-r8UfoE/h5py/h5py/_proxy.c:3148:5: warning: passing argument 4 of ‘__pyx_f_4h5py_4defs_H5Diterate’ from incompatible pointer type [enabled by default]
+         __pyx_f_4h5py_4defs_H5Diterate(__pyx_v_noncontig, __pyx_v_tid, __pyx_v_space, __pyx_f_4h5py_6_proxy_h5py_gather_cb, (&__pyx_v_info)); if (unlikely(PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 299; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+         ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/_proxy.c:3148:5: note: expected ‘H5D_operator_t’ but argument is of type ‘herr_t (*)(void *, hid_t,  unsigned int,  hsize_t *, void *)’
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:26:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/_proxy.c:287:
+    /tmp/pip-build-r8UfoE/h5py/h5py/_proxy.c: At top level:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1629:1: warning: ‘_import_array’ defined but not used [-Wunused-function]
+     _import_array(void)
+     ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/_proxy.o -L/opt/local/lib -L/usr/local/lib -Wl,-R/opt/local/lib -Wl,-R/usr/local/lib -lhdf5 -lhdf5_hl -o build/lib.linux-x86_64-2.7/h5py/_proxy.so
+    building 'h5py.h5fd' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/h5py/h5fd.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5fd.o
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5fd.c:287:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:26:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5fd.c:287:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1629:1: warning: ‘_import_array’ defined but not used [-Wunused-function]
+     _import_array(void)
+     ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5fd.o -L/opt/local/lib -L/usr/local/lib -Wl,-R/opt/local/lib -Wl,-R/usr/local/lib -lhdf5 -lhdf5_hl -o build/lib.linux-x86_64-2.7/h5py/h5fd.so
+    building 'h5py.h5z' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/h5py/h5z.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5z.o
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5z.c:287:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:26:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5z.c:287:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1629:1: warning: ‘_import_array’ defined but not used [-Wunused-function]
+     _import_array(void)
+     ^
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/lzf/lzf_filter.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/lzf/lzf_filter.o
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/lzf/lzf/lzf_c.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/lzf/lzf/lzf_c.o
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/lzf/lzf/lzf_d.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/lzf/lzf/lzf_d.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5z.o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/lzf/lzf_filter.o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/lzf/lzf/lzf_c.o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/lzf/lzf/lzf_d.o -L/opt/local/lib -L/usr/local/lib -Wl,-R/opt/local/lib -Wl,-R/usr/local/lib -lhdf5 -lhdf5_hl -o build/lib.linux-x86_64-2.7/h5py/h5z.so
+    building 'h5py.h5' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/h5py/h5.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5.o
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5.c:287:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:26:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5.c:287:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1629:1: warning: ‘_import_array’ defined but not used [-Wunused-function]
+     _import_array(void)
+     ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5.o -L/opt/local/lib -L/usr/local/lib -Wl,-R/opt/local/lib -Wl,-R/usr/local/lib -lhdf5 -lhdf5_hl -o build/lib.linux-x86_64-2.7/h5py/h5.so
+    building 'h5py.h5i' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/h5py/h5i.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5i.o
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5i.c:287:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:26:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5i.c:287:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1629:1: warning: ‘_import_array’ defined but not used [-Wunused-function]
+     _import_array(void)
+     ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5i.o -L/opt/local/lib -L/usr/local/lib -Wl,-R/opt/local/lib -Wl,-R/usr/local/lib -lhdf5 -lhdf5_hl -o build/lib.linux-x86_64-2.7/h5py/h5i.so
+    building 'h5py.h5r' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/h5py/h5r.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5r.o
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5r.c:287:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:26:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5r.c:287:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1629:1: warning: ‘_import_array’ defined but not used [-Wunused-function]
+     _import_array(void)
+     ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5r.o -L/opt/local/lib -L/usr/local/lib -Wl,-R/opt/local/lib -Wl,-R/usr/local/lib -lhdf5 -lhdf5_hl -o build/lib.linux-x86_64-2.7/h5py/h5r.so
+    building 'h5py.utils' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/h5py/utils.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/utils.o
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/utils.c:288:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/utils.o -L/opt/local/lib -L/usr/local/lib -Wl,-R/opt/local/lib -Wl,-R/usr/local/lib -lhdf5 -lhdf5_hl -o build/lib.linux-x86_64-2.7/h5py/utils.so
+    building 'h5py._conv' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/h5py/_conv.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/_conv.o
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/_conv.c:288:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/_conv.c:1342:18: warning: ‘__pyx_f_4h5py_5_conv_objectify’ defined but not used [-Wunused-function]
+     static PyObject *__pyx_f_4h5py_5_conv_objectify(PyObject *__pyx_v_o) {
+                      ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/_conv.o -L/opt/local/lib -L/usr/local/lib -Wl,-R/opt/local/lib -Wl,-R/usr/local/lib -lhdf5 -lhdf5_hl -o build/lib.linux-x86_64-2.7/h5py/_conv.so
+    building 'h5py.h5t' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/h5py/h5t.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5t.o
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5t.c:288:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:26:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5t.c:288:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1629:1: warning: ‘_import_array’ defined but not used [-Wunused-function]
+     _import_array(void)
+     ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5t.o -L/opt/local/lib -L/usr/local/lib -Wl,-R/opt/local/lib -Wl,-R/usr/local/lib -lhdf5 -lhdf5_hl -o build/lib.linux-x86_64-2.7/h5py/h5t.so
+    building 'h5py.h5s' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/h5py/h5s.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5s.o
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5s.c:288:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:26:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5s.c:288:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1629:1: warning: ‘_import_array’ defined but not used [-Wunused-function]
+     _import_array(void)
+     ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5s.o -L/opt/local/lib -L/usr/local/lib -Wl,-R/opt/local/lib -Wl,-R/usr/local/lib -lhdf5 -lhdf5_hl -o build/lib.linux-x86_64-2.7/h5py/h5s.so
+    building 'h5py.h5p' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/h5py/h5p.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5p.o
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5p.c:288:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5p.o -L/opt/local/lib -L/usr/local/lib -Wl,-R/opt/local/lib -Wl,-R/usr/local/lib -lhdf5 -lhdf5_hl -o build/lib.linux-x86_64-2.7/h5py/h5p.so
+    building 'h5py.h5d' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/h5py/h5d.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5d.o
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5d.c:288:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5d.o -L/opt/local/lib -L/usr/local/lib -Wl,-R/opt/local/lib -Wl,-R/usr/local/lib -lhdf5 -lhdf5_hl -o build/lib.linux-x86_64-2.7/h5py/h5d.so
+    building 'h5py.h5a' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/h5py/h5a.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5a.o
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5a.c:288:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/h5a.c: In function ‘__pyx_pf_4h5py_3h5a_14iterate’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/h5a.c:4009:19: warning: assignment from incompatible pointer type [enabled by default]
+         __pyx_v_cfunc = __pyx_f_4h5py_3h5a_cb_attr_iter;
+                       ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/h5a.c:4021:19: warning: assignment from incompatible pointer type [enabled by default]
+         __pyx_v_cfunc = __pyx_f_4h5py_3h5a_cb_attr_simple;
+                       ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5a.o -L/opt/local/lib -L/usr/local/lib -Wl,-R/opt/local/lib -Wl,-R/usr/local/lib -lhdf5 -lhdf5_hl -o build/lib.linux-x86_64-2.7/h5py/h5a.so
+    building 'h5py.h5f' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/h5py/h5f.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5f.o
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5f.c:288:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:26:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5f.c:288:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1629:1: warning: ‘_import_array’ defined but not used [-Wunused-function]
+     _import_array(void)
+     ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5f.o -L/opt/local/lib -L/usr/local/lib -Wl,-R/opt/local/lib -Wl,-R/usr/local/lib -lhdf5 -lhdf5_hl -o build/lib.linux-x86_64-2.7/h5py/h5f.so
+    building 'h5py.h5g' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/h5py/h5g.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5g.o
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5g.c:288:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/h5g.c: In function ‘__pyx_pf_4h5py_3h5g_7GroupID_20__contains__’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/h5g.c:4962:37: warning: variable ‘__pyx_v_new_handler’ set but not used [-Wunused-but-set-variable]
+       __pyx_t_4h5py_7_errors_err_cookie __pyx_v_new_handler;
+                                         ^
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:26:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5g.c:288:
+    /tmp/pip-build-r8UfoE/h5py/h5py/h5g.c: At top level:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1629:1: warning: ‘_import_array’ defined but not used [-Wunused-function]
+     _import_array(void)
+     ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5g.o -L/opt/local/lib -L/usr/local/lib -Wl,-R/opt/local/lib -Wl,-R/usr/local/lib -lhdf5 -lhdf5_hl -o build/lib.linux-x86_64-2.7/h5py/h5g.so
+    building 'h5py.h5l' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/h5py/h5l.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5l.o
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5l.c:288:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/h5l.c: In function ‘__pyx_pf_4h5py_3h5l_9LinkProxy_20visit’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/h5l.c:3545:19: warning: assignment from incompatible pointer type [enabled by default]
+         __pyx_v_cfunc = __pyx_f_4h5py_3h5l_cb_link_iterate;
+                       ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/h5l.c:3557:19: warning: assignment from incompatible pointer type [enabled by default]
+         __pyx_v_cfunc = __pyx_f_4h5py_3h5l_cb_link_simple;
+                       ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/h5l.c: In function ‘__pyx_pf_4h5py_3h5l_9LinkProxy_22iterate’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/h5l.c:3773:19: warning: assignment from incompatible pointer type [enabled by default]
+         __pyx_v_cfunc = __pyx_f_4h5py_3h5l_cb_link_iterate;
+                       ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/h5l.c:3785:19: warning: assignment from incompatible pointer type [enabled by default]
+         __pyx_v_cfunc = __pyx_f_4h5py_3h5l_cb_link_simple;
+                       ^
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:26:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5l.c:288:
+    /tmp/pip-build-r8UfoE/h5py/h5py/h5l.c: At top level:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1629:1: warning: ‘_import_array’ defined but not used [-Wunused-function]
+     _import_array(void)
+     ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5l.o -L/opt/local/lib -L/usr/local/lib -Wl,-R/opt/local/lib -Wl,-R/usr/local/lib -lhdf5 -lhdf5_hl -o build/lib.linux-x86_64-2.7/h5py/h5l.so
+    building 'h5py.h5o' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/h5py/h5o.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5o.o
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5o.c:288:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/h5o.c: In function ‘__pyx_pf_4h5py_3h5o_14visit’:
+    /tmp/pip-build-r8UfoE/h5py/h5py/h5o.c:4890:19: warning: assignment from incompatible pointer type [enabled by default]
+         __pyx_v_cfunc = __pyx_f_4h5py_3h5o_cb_obj_iterate;
+                       ^
+    /tmp/pip-build-r8UfoE/h5py/h5py/h5o.c:4902:19: warning: assignment from incompatible pointer type [enabled by default]
+         __pyx_v_cfunc = __pyx_f_4h5py_3h5o_cb_obj_simple;
+                       ^
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:26:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5o.c:288:
+    /tmp/pip-build-r8UfoE/h5py/h5py/h5o.c: At top level:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1629:1: warning: ‘_import_array’ defined but not used [-Wunused-function]
+     _import_array(void)
+     ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5o.o -L/opt/local/lib -L/usr/local/lib -Wl,-R/opt/local/lib -Wl,-R/usr/local/lib -lhdf5 -lhdf5_hl -o build/lib.linux-x86_64-2.7/h5py/h5o.so
+    building 'h5py.h5ds' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/h5py/h5ds.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5ds.o
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5ds.c:288:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:26:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5ds.c:288:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1629:1: warning: ‘_import_array’ defined but not used [-Wunused-function]
+     _import_array(void)
+     ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5ds.o -L/opt/local/lib -L/usr/local/lib -Wl,-R/opt/local/lib -Wl,-R/usr/local/lib -lhdf5 -lhdf5_hl -o build/lib.linux-x86_64-2.7/h5py/h5ds.so
+    building 'h5py.h5ac' extension
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DH5_USE_16_API -I/tmp/pip-build-r8UfoE/h5py/lzf -I/opt/local/include -I/usr/local/include -I/usr/lib/python2.7/dist-packages/numpy/core/include -I/usr/include/python2.7 -c /tmp/pip-build-r8UfoE/h5py/h5py/h5ac.c -o build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5ac.o
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1761:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5ac.c:288:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:26:0,
+                     from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/api_compat.h:26,
+                     from /tmp/pip-build-r8UfoE/h5py/h5py/h5ac.c:288:
+    /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1629:1: warning: ‘_import_array’ defined but not used [-Wunused-function]
+     _import_array(void)
+     ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -D_FORTIFY_SOURCE=2 -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/tmp/pip-build-r8UfoE/h5py/h5py/h5ac.o -L/opt/local/lib -L/usr/local/lib -Wl,-R/opt/local/lib -Wl,-R/usr/local/lib -lhdf5 -lhdf5_hl -o build/lib.linux-x86_64-2.7/h5py/h5ac.so
+Successfully installed h5py-2.4.0

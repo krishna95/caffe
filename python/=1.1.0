@@ -1,0 +1,4 @@
+The directory '/home/kinoder/.cache/pip/log' or its parent directory is not owned by the current user and the debug log has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want the -H flag.
+The directory '/home/kinoder/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want the -H flag.
+The directory '/home/kinoder/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want the -H flag.
+Requirement already satisfied (use --upgrade to upgrade): ipython in /usr/lib/python2.7/dist-packages
